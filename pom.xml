@@ -4,7 +4,7 @@
    <modelVersion>4.0.0</modelVersion>
    <groupId>wwmm</groupId>
    <artifactId>pom</artifactId>
-   <version>1</version>
+   <version>1-SNAPSHOT</version>
    <packaging>pom</packaging>
    <name>WWMM-POM</name>
    <description>A central set of dependency version information. An implicit commitment that the dependencies listed are in http://maven.ch.cam.ac.uk/m2repo/</description>
@@ -12,12 +12,12 @@
       <repository>
          <id>ucc-snapshots</id>
          <name>UCC Snapshots</name>
-         <url>http://maven.ch.cam.ac.uk/content/repositories/wwmm-snapshots/</url>
+         <url>http://maven.ch.cam.ac.uk/content/repositories/wwmm-snapshots</url>
       </repository>
       <snapshotRepository>
       	<id>ucc-releases</id>
       	<name>UCC releases</name>
-      	<url>http://maven.ch.cam.ac.uk/content/repositories/wwmm-snapshots/</url>
+      	<url>http://maven.ch.cam.ac.uk/content/repositories/wwmm-snapshots</url>
       </snapshotRepository>
    </distributionManagement>
    <properties>
