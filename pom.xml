@@ -13,14 +13,14 @@
 
     <distributionManagement>
         <repository>
-            <id>ucc-snapshots</id>
-            <name>UCC Snapshots</name>
-            <url>https://maven.ch.cam.ac.uk/content/repositories/wwmm-snapshots</url>
+            <id>ucc-releases</id>
+            <name>UCC Release Repository</name>
+            <url>https://maven.ch.cam.ac.uk/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
             <id>ucc-releases</id>
-            <name>UCC releases</name>
-            <url>https://maven.ch.cam.ac.uk/content/repositories/wwmm-snapshots</url>
+            <name>UCC Snapshot Repository</name>            
+            <url>https://maven.ch.cam.ac.uk/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
