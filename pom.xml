@@ -6,7 +6,7 @@
 
     <groupId>wwmm</groupId>
     <artifactId>wwmm-parent</artifactId>
-    <version>1</version>
+    <version>2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>WWMM Parent POM</name>
