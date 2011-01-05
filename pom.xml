@@ -18,7 +18,7 @@
             <url>https://maven.ch.cam.ac.uk/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
-            <id>ucc-releases</id>
+            <id>ucc-snapshots</id>
             <name>UCC Snapshot Repository</name>            
             <url>https://maven.ch.cam.ac.uk/content/repositories/snapshots</url>
         </snapshotRepository>
@@ -35,9 +35,6 @@
         <developer>
             <id>ojd20</id>
             <name>Jim Downing</name>
-            <email>ojd20@cam.ac.uk</email>
-            <url>http://jimdowning.wordpress.com/</url>
-            <timezone>0</timezone>
         </developer>
         <developer>
             <id>sea36</id>
