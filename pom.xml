@@ -19,7 +19,7 @@
         </repository>
         <snapshotRepository>
             <id>ucc-snapshots</id>
-            <name>UCC Snapshot Repository</name>            
+            <name>UCC Snapshot Repository</name>
             <url>https://maven.ch.cam.ac.uk/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
@@ -41,6 +41,10 @@
             <name>Sam Adams</name>
         </developer>
     </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <build>
 
