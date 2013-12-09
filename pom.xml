@@ -18,12 +18,14 @@
 	<name>WWMM Parent POM</name>
 	<description>Parent POM for Maven managed projects in the Unilever Centre for Molecular Science Informatics</description>
 	<url>https://bitbucket.org/wwmm/wwmm-pom</url>
+
 	<licenses>
 		<license>
 			<name>Apache License, Version 2.0</name>
 			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
 		</license>
 	</licenses>
+
 	<scm>
 		<url>https://bitbucket.org/wwmm/wwmm-pom/src</url>
 		<connection>scm:hg:http://bitbucket.org/wwmm/wwmm-pom</connection>
@@ -51,6 +53,18 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<maven-source-plugin.version>2.2.1</maven-source-plugin.version>
+		<maven-dependency-plugin.version>2.8</maven-dependency-plugin.version>
+		<maven-clean-plugin.version>2.5</maven-clean-plugin.version>
+		<maven-resources-plugin.version>2.6</maven-resources-plugin.version>
+		<maven-surefire-plugin.version>2.16</maven-surefire-plugin.version>
+		<maven-jar-plugin.version>2.4</maven-jar-plugin.version>
+		<maven-install-plugin.version>2.5.1</maven-install-plugin.version>
+		<maven-deploy-plugin.version>2.8.1</maven-deploy-plugin.version>
+		<maven-release-plugin.version>2.4.2</maven-release-plugin.version>
+		<maven-assembly-plugin.version>2.4</maven-assembly-plugin.version>
+		<maven-enforcer-plugin.version>1.3.1</maven-enforcer-plugin.version>
 	</properties>
 
 	<build>
@@ -63,16 +77,16 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.1</version>
 					<configuration>
-						<optimize>true</optimize>
 						<source>1.6</source>
 						<target>1.6</target>
+						<optimize>true</optimize>
 					</configuration>
 				</plugin>
 
 				<!-- Include POM.xml in source JAR -->
 				<plugin>
 					<artifactId>maven-source-plugin</artifactId>
-					<version>2.2.1</version>
+					<version>${maven-source-plugin.version}</version>
 					<configuration>
 						<includePom>true</includePom>
 					</configuration>
@@ -80,22 +94,22 @@
 
 				<plugin>
 					<artifactId>maven-dependency-plugin</artifactId>
-					<version>2.8</version>
+					<version>{maven-dependency-plugin.version}</version>
 				</plugin>
 				<plugin>
 					<artifactId>maven-clean-plugin</artifactId>
-					<version>2.5</version>
+					<version>${maven-clean-plugin.version}</version>
 				</plugin>
 				<plugin>
 					<artifactId>maven-resources-plugin</artifactId>
-					<version>2.6</version>
+					<version>${maven-resources-plugin.version}</version>
 					<configuration>
 						<encoding>UTF-8</encoding>
 					</configuration>
 				</plugin>
 				<plugin>
 					<artifactId>maven-surefire-plugin</artifactId>
-					<version>2.16</version>
+					<version>${maven-surefire-plugin.version}</version>
 					<configuration>
 						<!-- Parallel running of test cases -->
 						<parallel>classes</parallel>
@@ -104,27 +118,27 @@
 				</plugin>
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>
-					<version>2.4</version>
+					<version>${maven-jar-plugin.version}</version>
 				</plugin>
 				<plugin>
 					<artifactId>maven-install-plugin</artifactId>
-					<version>2.5.1</version>
+					<version>${maven-install-plugin.version}</version>
 				</plugin>
 				<plugin>
 					<artifactId>maven-deploy-plugin</artifactId>
-					<version>2.8.1</version>
+					<version>${maven-deploy-plugin.version}</version>
 				</plugin>
 				<plugin>
 					<artifactId>maven-release-plugin</artifactId>
-					<version>2.4.2</version>
+					<version>${maven-release-plugin.version}</version>
 				</plugin>
 				<plugin>
 					<artifactId>maven-assembly-plugin</artifactId>
-					<version>2.4</version>
+					<version>${maven-assembly-plugin.version}</version>
 				</plugin>
 				<plugin>
 					<artifactId>maven-enforcer-plugin</artifactId>
-					<version>1.3.1</version>
+					<version>${maven-enforcer-plugin.version}</version>
 				</plugin>
 			</plugins>
 		</pluginManagement>
