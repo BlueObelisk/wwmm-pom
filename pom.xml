@@ -63,7 +63,7 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.1</version>
 					<configuration>
-					    <optimize>true</optimize>
+						<optimize>true</optimize>
 						<source>1.6</source>
 						<target>1.6</target>
 					</configuration>
@@ -96,6 +96,11 @@
 				<plugin>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.16</version>
+					<configuration>
+						<!-- Parallel running of test cases -->
+						<parallel>classes</parallel>
+						<useUnlimitedThreads>true</useUnlimitedThreads>
+					</configuration>
 				</plugin>
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>
