@@ -110,11 +110,6 @@
 				<plugin>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>${maven-surefire-plugin.version}</version>
-					<configuration>
-						<!-- Parallel running of test cases -->
-						<parallel>classes</parallel>
-						<useUnlimitedThreads>true</useUnlimitedThreads>
-					</configuration>
 				</plugin>
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>
