@@ -16,7 +16,7 @@
 -->
 	<groupId>uk.ac.cam.ch.wwmm</groupId>
 	<artifactId>wwmm-parent</artifactId>
-	<version>5</version>
+	<version>6-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>WWMM Parent POM</name>
