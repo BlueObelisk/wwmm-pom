@@ -7,21 +7,21 @@
         <prerequisites>
            <maven>2.2.1</maven>
         </prerequisites>
-
+<!--
 	<parent>
 		<groupId>org.sonatype.oss</groupId>
 		<artifactId>oss-parent</artifactId>
 		<version>7</version>
 	</parent>
-
+-->
 	<groupId>uk.ac.cam.ch.wwmm</groupId>
 	<artifactId>wwmm-parent</artifactId>
-	<version>5-SNAPSHOT</version>
+	<version>5</version>
 	<packaging>pom</packaging>
 
 	<name>WWMM Parent POM</name>
 	<description>Parent POM for Maven managed projects in the Unilever Centre for Molecular Science Informatics</description>
-	<url>https://bitbucket.org/wwmm/wwmm-pom</url>
+	<url>https://github.com/BlueObelisk/wwmm-pom</url>
 
 	<licenses>
 		<license>
@@ -31,10 +31,18 @@
 	</licenses>
 
 	<scm>
-		<url>https://bitbucket.org/wwmm/wwmm-pom/src</url>
-		<connection>scm:hg:http://bitbucket.org/wwmm/wwmm-pom</connection>
-		<developerConnection>scm:hg:https://bitbucket.org/wwmm/wwmm-pom</developerConnection>
+		<url>https://github.com/BlueObelisk/wwmm-pom</url>
+		<connection>scm:git:https://github.com/BlueObelisk/wwmm-pom</connection>
+		<developerConnection>scm:git:https://github.com/BlueObelisk/wwmm-pom</developerConnection>
 	</scm>
+
+	<distributionManagement>
+	   <repository>
+	     <id>github</id>
+	     <name>GitHub OWNER Apache Maven Packages</name>
+	     <url>https://maven.pkg.github.com/BlueObelisk/wwmm-pom</url>
+	   </repository>
+	</distributionManagement>
 
 	<developers>
 		<developer>
