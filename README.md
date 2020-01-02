@@ -3,9 +3,10 @@
 The `wwmm-parent` POM.
 
 ---
-
-*Note:*
+**Note:**  
 As of 2020-01-01 the the official home the `wwmm-parent` POM is:
 <https://github.com/BlueObelisk/wwmm-pom>.
 WWMM-POM's old home at: <https://bitbucket.org/wwmm/wwmm-pom> is subject to be
 removed once Bitbucket removes all Mercurial repositories mid-2020.
+
+---
