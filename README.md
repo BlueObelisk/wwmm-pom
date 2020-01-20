@@ -20,6 +20,6 @@ The `wwmm-parent` POM is also available via Maven, and is on [Maven Central](htt
 <dependency>
   <groupId>uk.ac.cam.ch.wwmm</groupId>
   <artifactId>wwmm-parent</artifactId>
-  <version>6</version>
+  <version>7</version>
 </dependency>
 ```
