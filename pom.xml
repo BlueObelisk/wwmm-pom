@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
 
@@ -15,7 +13,7 @@
 	</parent>
 	<groupId>uk.ac.cam.ch.wwmm</groupId>
 	<artifactId>wwmm-parent</artifactId>
-	<version>8-SNAPSHOT</version>
+	<version>8</version>
 	<packaging>pom</packaging>
 
 	<name>WWMM Parent POM</name>
@@ -34,7 +32,7 @@
 		<url>https://github.com/BlueObelisk/wwmm-pom</url>
 		<connection>scm:git:https://github.com/BlueObelisk/wwmm-pom</connection>
 		<developerConnection>scm:git:git@github.com:BlueObelisk/wwmm-pom</developerConnection>
-		<tag>HEAD</tag>
+		<tag>wwmm-parent-8</tag>
 	</scm>
 
 	<developers>
