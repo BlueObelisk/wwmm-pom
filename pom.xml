@@ -13,7 +13,7 @@
 	</parent>
 	<groupId>uk.ac.cam.ch.wwmm</groupId>
 	<artifactId>wwmm-parent</artifactId>
-	<version>8</version>
+	<version>9-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>WWMM Parent POM</name>
@@ -32,7 +32,7 @@
 		<url>https://github.com/BlueObelisk/wwmm-pom</url>
 		<connection>scm:git:https://github.com/BlueObelisk/wwmm-pom</connection>
 		<developerConnection>scm:git:git@github.com:BlueObelisk/wwmm-pom</developerConnection>
-		<tag>wwmm-parent-8</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<developers>
